@@ -1,24 +1,4 @@
-# CarND-Vehicle-Detection-P5
-Udacity Self Driving Car Nanodegree - Vehicle Detection
-
-# Prerequisites
-
-To run this project, you need [Miniconda](https://conda.io/miniconda.html) installed(please visit [this link](https://conda.io/docs/install/quick.html) for quick installation instructions.)
-
-# Installation
-To create an environment for this project use the following command:
-
-```
-conda env create -f environment.yml
-```
-
-After the environment is created, it needs to be activated with the command:
-
-```
-source activate carnd-term1
-```
-
-# Project
+# Vehicle Detection Project
 
 ## Goals
 
