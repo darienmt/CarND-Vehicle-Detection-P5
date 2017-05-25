@@ -40,10 +40,22 @@ Here I will consider the rubric points individually and describe how I addressed
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. [Here](https://github.com/udacity/CarND-Vehicle-Detection/blob/master/writeup_template.md) is a template writeup for this project you can use as a guide and a starting point.
 
 You're reading it!
+The project code could be found on the [Vehicle Detection notebook](Vehicle%20Detection.ipynb).
 
 ### Histogram of Oriented Gradients (HOG)
 
 #### 1. Explain how (and identify where in your code) you extracted HOG features from the training images.
+
+The training images are loaded at `In[2]`:
+
+- Vehicle train images count: 8792
+- Non-vehicle train imae count: 8968
+
+Here is an example of those images:
+
+![Vehicle and non-vehicle images](images/vehicle-non-vehicle.png)
+
+The feature extraction code (spatial, color and HOG) is at `In[4]`. This cell contains a set of functions provided by Udacity's lectures to extract the features from an image. The function `extract_features` combine the other function and use the class `FeatureParameters` to hold all the parameters in a single place.
 
 #### 2. Explain how you settled on your final choice of HOG parameters.
 
